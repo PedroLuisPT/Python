@@ -1,4 +1,5 @@
-n = int(input("Write a number: "))
+#This program is able to give you the times table of the users number's choise
+i = int(input("Write a number: "))
 print (n,"times table:")
 i = 1
 while i <= 10:
