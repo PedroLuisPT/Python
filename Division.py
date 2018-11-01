@@ -1,4 +1,4 @@
-def division(x,y)
+def division(x,y):
   """
   This code asks the user for a Dividend and a Divider, returning the quotient and solution's rest
   Requires:Two int numbers y>0
