@@ -12,5 +12,5 @@ def division(x,y)
     rest = rest - divider
     quotient = quotient + 1
     print("The quotient is", quotient, "and the rest is", rest)
- return quotient
- return rest
+  return quotient
+  return rest
