@@ -1,0 +1,15 @@
+num = int(input('Write a number: '))
+print('''Which base do you want to work with?
+[1] binary
+[2] octal
+[3] Hexadecimal
+''')
+base = int(input('Your option: '))
+if base == 1:
+    print(bin(num))
+elif base == 2:
+    print(oct(num))
+elif base == 3:
+    print(hex(num))
+else:
+    print('Wrong option. Try again!')
